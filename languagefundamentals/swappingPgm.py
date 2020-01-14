@@ -1,2 +1,11 @@
 no1=10
-n02=20
+no2=20
+no1=no1+no2
+no2=no1-no2
+no1=no1-no2
+(no1,no2)=(no2,no1)
+temp=no1
+no1=no2
+no2=temp
+print("no1=",no1)
+print("no2=",no2)
