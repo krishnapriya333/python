@@ -15,3 +15,12 @@ print("floatdiv=",floatdiv)
 exp=no1**no2
 print("exp=",exp)
 
+no1=input("enter value for num1")
+no2=input("enter value for num2")
+res=no1+no2
+print("result=",res)
+
+no1=int(input("enter value for num1"))
+no2=int(input("enter value for num2"))
+res=no1+no2
+print("result=",res)
