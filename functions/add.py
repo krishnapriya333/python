@@ -3,4 +3,5 @@ def add():
     no2 = int(input("enter th num2"))
     res=no1+no2
     print(res)
-add()    
+add()
+

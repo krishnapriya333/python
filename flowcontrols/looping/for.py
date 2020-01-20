@@ -11,7 +11,7 @@ if((no1%2==0)&(no2%2==0)):
     for i in range(no1,no2,2):
         print(i)
 elif((no1%2==0)&(no2%2!=0)):
-    for i in range(no1,no2,2):
+    for i in range(no1,no2+1,2):
         print(i)
 elif((no1%2!=0)&(no2%2==0)):
     for i in range(no1+1,no2,2):
@@ -19,6 +19,7 @@ elif((no1%2!=0)&(no2%2==0)):
 else:
     for i in range(no1+1,no2+1,2):
         print(i)
+
 
 
 

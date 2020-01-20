@@ -6,17 +6,28 @@ if(no1>no2):
             print("max=",no1)
         else:
             print("max=",no3)
-else:
+elif(no1<no2):
         if(no2>no3):
             print("max=",no2)
         else:
             print("max=",no3)
-
-if((no1>no2)&(no1>no3)):
-        print("max=",no1)
-elif((no2>no1)&(no2>no3)):
-        print("max=",no2)
-elif((no3>no1)&(no3>no2)):
-        print("max=",no3)
 else:
-        print("3 numbers are equal")
+        print("numbers are equal")
+
+
+def max(no1,no2,no3):
+    if((no1>no2)&(no1>no3)):
+        res=max=no1
+        return res
+    elif((no2>no1)&(no2>no3)):
+        res=max=no2
+        return res
+    elif((no3>no1)&(no3>no2)):
+        res=max=no3
+        return res
+    else:
+        res="3 numbers are equal"
+        return res
+
+x=max(23,67,45)
+print(x)

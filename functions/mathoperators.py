@@ -12,3 +12,6 @@ def div(no1,no2):
 
 def mod(no1,no2):
     return(no1%no2)
+
+def floor(no1,no2):
+    return(no1//no2)
