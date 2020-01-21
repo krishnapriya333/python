@@ -1,33 +1,29 @@
-z=[10,25,40,36,56,78,98,43]
-cnt=len(z)
-for i in range(0,cnt):
-     if(z[i]%2==0):
-         print(z[i])
-     else:
-         pass
-
-z = [10, 25, 40, 36, 56, 78, 98, 43]
-cnt=len(z)
-for i in range(0,cnt):
-    if(z[i]%2!=0):
-        print(z[i])
+x=list()
+even=list()
+limit=int(input("enter the limit"))
+for i in range(0,limit):
+    val=int(input("enter the value"))
+    x.append(val)
+print(x)
+for val in x:
+    if(val%2==0):
+        even.append(val)
     else:
-         pass
+        break
+print(even)
 
-z = [10, 25, 40, 36, 56, 78, 98, 43]
-cnt=len(z)
-for i in range(0,cnt):
-   if(z[i]%2==0):
-       print(z[i]**2)
-   else:
-        pass
 
-z = [10, 25, 40, 36, 56, 78, 98, 43]
-cnt=len(z)
-sum=0
-for i in range(0,cnt):
-        if(z[i]%2==0):
-            sum=sum+(z[i]**2)
-        else:
-             pass
-print("sum=",sum)
+
+x=list()
+odd=list()
+limit=int(input("enter the limit"))
+for i in range(0,limit):
+    val=int(input("enter the value"))
+    x.append(val)
+print(x)
+for val in x:
+    if(val%2!=0):
+        odd.append(val)
+    else:
+        break
+print(odd)
