@@ -5,8 +5,9 @@ element=int(input("enter the value"))
 flag=0
 ll=0
 ul=len(lst)
+print(ul)
 mid=(ll+ul)//2
-while(ll<=ul):
+while(ll<ul):
     if(element<lst[mid]):
         ul=mid-1
     elif(element>lst[mid]):
@@ -15,7 +16,7 @@ while(ll<=ul):
         flag+=1
         break
     mid=(ll+ul)//2
-    if(ll>ul):
+    if(ll>=ul):
         break
 if(flag==1):
     print("element found")

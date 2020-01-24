@@ -10,13 +10,13 @@
 #     if(val%2==0):
 #         even.append(val)
 #     else:
-#         break
+#         pass
 # print(even)
 # for val in even:
-#     if(val%2==0):
+#     if (val % 2 == 0):
 #         square.append(val**2)
 #     else:
-#         break
+#         pass
 # print(square)
 
 
@@ -30,8 +30,12 @@ for i in range(0,limit):
 print(x)
 for val in x:
     if(val%2==0):
-        sum=sum+(val**2)
-        continue
+        even.append(val)
     else:
-        break
+        pass
+print(even)
+for val in even:
+    sum=sum+(val**2)
+    continue
+
 print("sum=",sum)

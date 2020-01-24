@@ -9,6 +9,8 @@ for num in range(no1,no2+1):
             break
     if(flag==0):
         sum=sum+num
+    else:
+        pass
 
 
 print("sum=",sum)
