@@ -17,4 +17,4 @@ for k,v in dict.items():
 tmp=sorted(tmp,reverse=True)
 print(tmp)
 print("the age is most=",tmp[0][1])
-print("the age at least=",tmp[-1][1])
+print("the age is least=",tmp[-1][1])
