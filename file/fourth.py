@@ -3,6 +3,7 @@ lst=list()
 dict={}
 for word in f:
     words=word.split(",")
+    print(words)
     lst.append(words)
 print(lst)
 for word in lst:
