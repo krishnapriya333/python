@@ -16,8 +16,8 @@ for k,v in dict.items():
     tmp.append((v,k))
 tmp=sorted(tmp,reverse=True)
 print(tmp)
-print("maximum movies released in the year=",tmp[0][1],"and count is=",tmp[0][0])
-print("minimum movies released in the year=",tmp[-1][1],"and count is=",tmp[-1][0])
+print("maximum movies released in the year",tmp[0][1],"and count is=",tmp[0][0])
+print("minimum movies released in the year",tmp[-1][1],"and count is=",tmp[-1][0])
 
 
 
