@@ -1,3 +1,4 @@
+#TO APPEND A EMPTY LIST
 x=list()
 limit=int(input("enter limit of list"))
 for i in range(0,limit):

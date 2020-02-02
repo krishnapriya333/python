@@ -1,3 +1,4 @@
+#CHECK AN ELEMENT IN A LIST
 lst=[10,20,21,22,23]
 flag=0
 element=int(input("enter element for search"))

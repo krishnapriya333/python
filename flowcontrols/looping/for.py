@@ -1,10 +1,14 @@
-#for i in range(0,10):
-#    print(i)
+for i in range(0,10):
+   print(i)
 
-#for i in range(0,10,2):
-   # print(i)
-#for i in range(1,10,2):
- #   print(i)
+for i in range(0,10,2):
+   print(i)
+
+for i in range(1,10,2):
+   print(i)
+
+
+#PRINT EVEN NUMBERS IN A RANGE
 no1=int(input("enter lower limit"))
 no2=int(input("enter upper limit"))
 if((no1%2==0)&(no2%2==0)):

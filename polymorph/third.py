@@ -3,10 +3,7 @@ class person:
         self.age = age
         self.name = name
         self.sal = sal
-    #
-    # def printPerson(self):
-    #     print("age=", self.age)
-    #     print("name=", self.name)
+
 
     def __str__(self):
         return self.name
@@ -17,6 +14,7 @@ lst = []
 
 for data in f:
     persons = data.rstrip("\n").split(",")
+    print(persons)
     age = persons[0]
     name = persons[1]
     sal = persons[2]

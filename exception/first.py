@@ -19,4 +19,4 @@ try:
     ind=int(input("enter the index position"))
     print(lst[ind])
 except:
-    print("enter another index position")
+    print("exception occured")

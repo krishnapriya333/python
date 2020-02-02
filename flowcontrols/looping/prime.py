@@ -1,3 +1,4 @@
+#TO FIND A NUMBER IS PRIME
 no=int(input("enter the number"))
 flag=0
 for i in range (2,no):

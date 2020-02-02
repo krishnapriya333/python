@@ -1,7 +1,9 @@
-#i=10
-#while(i>0):
-   # print(i)
-    #i=i-1
+i=10
+while(i>0):
+    print(i)
+    i=i-1
+
+#TO PRINT FACTORIAL OF A NUMBER
 num=int(input("enter the num"))
 i=1
 res=1

@@ -1,3 +1,4 @@
+# TO PRINT PAIRS OF A SUM
 lst=[3,5,4,8,1,9,2,7,6]
 lst.sort()
 print(lst)
