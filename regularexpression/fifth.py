@@ -1,13 +1,27 @@
 import re
 f=open("/home/luminar/python/vehicles","r")
+f2=open("vehicles.txt","w")
 rule='KL[0-9]{2}[A-Z]{2}[0-9]{4}'
 
 for val in f:
-    match=re.match(rule,val)
+    val=val.rstrip("\n")
+    match=re.fullmatch(rule,val)
     if(match!=None):
-        print(val)
+        f2.write(val)
+        f2.write("\n")
     else:
         pass
+
+
+
+
+
+
+
+
+
+
+
 
 
 

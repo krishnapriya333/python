@@ -1,4 +1,4 @@
-import datetime
+from datetime import datetime
 class Bank:
     bname="SBI"#bname is a static variable
     def createAccount(self,acno):
@@ -9,13 +9,13 @@ class Bank:
     def withDraw(self):
         amnt = int(input("enter the the amount you want to withdraw"))
         self.bal-= amnt
-        print("your",Bank.bname," account no",self.acno,"has been withdrew with amnt",amnt,"on",datetime)
+        print("your",Bank.bname," account no",self.acno,"has been withdrew with amnt",amnt,"on",datetime.now())
         print("your available balance=", self.bal)
 
     def deposit(self):
         amnt=int(input("enter the the amount you want to deposit"))
         self.bal+=amnt
-        print("your",Bank.bname,"account no",self.acno, "has been deposited with amnt",amnt,"on",datetime)
+        print("your",Bank.bname,"account no",self.acno, "has been deposited with amnt",amnt,"on",datetime.now())
         print("your available balance=",self.bal)
 
 
